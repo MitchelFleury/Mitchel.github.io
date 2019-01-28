@@ -1,0 +1,153 @@
+body {
+  background-image: url("https://images.launchbox-app.com/73e85c44-5f9a-481b-99eb-724e7e334de5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+video {
+  height: auto;
+  width: 100%;
+}
+
+h1 {
+ line-height: 100px;
+}
+
+h2{
+  margin-bottom: 15px;
+	letter-spacing:1px;
+}
+
+p{
+	margin-bottom: 25px;
+	font-size:18px;
+	line-height:1.6em;
+}
+
+a{
+	color:red;
+}
+
+/* header */
+header {
+  background-color: white;
+}
+
+.navbar-nav {
+    margin: auto;
+    display: block;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+}
+
+/* text color van de navbar */
+.navbar-light .navbar-nav .nav-link{
+  color: red;
+}
+
+/* de container */
+.container {
+  width: auto;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+}
+
+/* background color */
+.backgroundcolor {
+  background-color: white;
+  width: auto;
+  height: auto;
+  border-radius: 15px;
+  width: 100%;
+}
+
+/* de naam van de pagina boven in de container */
+.page-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  color: white;
+  background-color: red;
+}
+
+/* de eerste tekst op de home page */
+.welcome {
+  height: auto;
+  width: 100%;
+}
+
+.welcome p {
+  margin-top: 30px;
+}
+
+/* de rows op de home page */
+.colomn33 {
+  height: auto;
+  width: 100%;
+}
+
+.titel {
+  margin-top: 10px;
+}
+
+.foto img{
+  display: block;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10px;
+}
+
+/* de video op de home page */
+.intro-video {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.intro-video-tekst{
+  margin-top: 25px;
+}
+
+/* table van results & standings */
+table{
+  height: auto;
+  width: 100%;
+  margin-top: 25px;
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+}
+
+/* contact form */
+form {
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* footer */
+footer {
+  background-color: white;
+}
+
+footer .social-icons{
+  margin-left: 15px;
+}
+
+a:hover,a:focus{
+	text-decoration:none;
+	color: black;
+}
+
+@media screen and (max-width: 768px) {
+  footer .social-icons {
+    margin-left: 0px;
+  }
+}
